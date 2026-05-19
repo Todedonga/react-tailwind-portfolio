@@ -24,29 +24,30 @@ const projects = [
         title: "Movie Recommendation System",
         description:
             "Movie recommendation system combining a PHP frontend with a Python machine learning model using the MovieLens dataset.",
-        image: "/projects/movierecommender.png",
+        image: "public/projects/RBM.png",
         tags: [
             "Python",
             "PHP",
             "Machine Learning",
             "JSON",
-            "MovieLens",
+            "Flask",
         ],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "https://rbm--todedonga.replit.app",
+        githubUrl: "https://github.com/Todedonga/RBM.git",
     },
 
     {
         id: 3,
-        title: "CRUD API with Golang",
+        title: "CRM System with Golang Fiber",
         description:
-            "RESTful CRUD API built with Golang focused on backend development and scalable API architecture.",
-        image: "/projects/golangcrud.png",
+            "CRM web application built with Golang Fiber focused on backend architecture, REST APIs, and scalable application development.",
+        image: "/projects/golangcrm.png",
         tags: [
             "Golang",
+            "Fiber",
             "REST API",
             "Backend",
-            "CRUD",
+            "CRM",
         ],
         demoUrl: "#",
         githubUrl: "#",
@@ -112,7 +113,7 @@ export const ProjectsSection = () => {
                     ))}
                 </div>
                 <div className="text-center mt-12">
-                    <a 
+                    <a
                         className="cosmic-button w-fit flex items-center mx-auto gap-2"
                         target="_blank"
                         href="https://github.com/Todedonga"
