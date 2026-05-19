@@ -6,7 +6,7 @@ const projects = [
         title: "Braincrack Trivia Application",
         description:
             "Cross-platform trivia game built with Python, Kotlin, and Swift using MVC architecture and Firebase API integration.",
-        image: "/projects/braincrack.png",
+        image: "public/projects/braincrack.png",
         tags: [
             "Python",
             "Kotlin",
@@ -34,23 +34,6 @@ const projects = [
         ],
         demoUrl: "https://rbm--todedonga.replit.app",
         githubUrl: "https://github.com/Todedonga/RBM.git",
-    },
-
-    {
-        id: 3,
-        title: "CRM System with Golang Fiber",
-        description:
-            "CRM web application built with Golang Fiber focused on backend architecture, REST APIs, and scalable application development.",
-        image: "/projects/golangcrm.png",
-        tags: [
-            "Golang",
-            "Fiber",
-            "REST API",
-            "Backend",
-            "CRM",
-        ],
-        demoUrl: "#",
-        githubUrl: "#",
     },
 ];
 
